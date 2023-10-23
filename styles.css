@@ -1,0 +1,17 @@
+table {
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.empty {
+  font-size:2em;
+  color: gray;
+}
