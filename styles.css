@@ -23,7 +23,7 @@ button {
 }
 
 #table1, #table2, #table3 {
-  height: 360px;
+  height: 330px;
   overflow: scroll;
 }
 
@@ -52,4 +52,10 @@ button {
 
 #csv {
   border: none;
+}
+
+.tableLabel {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 1.5em;
 }

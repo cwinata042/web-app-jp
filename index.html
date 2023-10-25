@@ -30,19 +30,35 @@
       <input id="csv" type="file" accept=".csv">
     </div>
 
-    <div id="table1" class="row">
-      <div class="empty row d-flex justify-content-center align-self-center">Upload a .csv file</div>
-    </div>
-    
     <div class="row">
-      <div id="table2" class="col d-flex">
-        <div class="empty col d-flex align-items-center justify-content-center">Upload a .csv file</div>
+      <div class="col">
+        <div class="tableLabel">
+          Original Table
+        </div>
+        <div id="table2" class="row d-flex">
+          <div class="empty col d-flex align-items-center justify-content-center">Upload a .csv file</div>
+        </div>
       </div>
-      <div id="table3" class="col d-flex">
-        <div class="empty col d-flex align-items-center justify-content-center">Upload a .csv file</div>
+      <div class="col">
+        <div class="tableLabel">
+          Modified Table
+        </div>
+        <div id="table3" class="col d-flex">
+          <div class="empty col d-flex align-items-center justify-content-center">Upload a .csv file</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="tableLabel">Program Output</div>
+        <div id="table1" class="row">
+          <div class="empty row d-flex justify-content-center align-self-center">Upload a .csv file</div>
+        </div>
       </div>
     </div>
     
+    <button id="modify" class="btn btn-lg btn-primary" disabled>Run program</button>
     <button id="download" class="btn btn-lg btn-dark" disabled>Download .csv</button>
   </div>
 
