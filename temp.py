@@ -16,13 +16,13 @@ async def get_file(e):
       df = pd.read_csv(io.StringIO(file_content))
 
       # Displays original table
-      table1.innerHTML = df.to_html(classes="table", index=False)
+      table1.innerHTML = df.to_html(classes="table table-bordered table-striped table-sm", index=False, justify="left")
 
       # Displays modified tables
       temp_modify1(df)
-      table2.innerHTML = df.to_html(classes="table", index=False)
+      table2.innerHTML = df.to_html(classes="table table-bordered table-striped table-sm", index=False, justify="left")
       temp_modify2(df)
-      table3.innerHTML = df.to_html(classes="table", index=False)
+      table3.innerHTML = df.to_html(classes="table table-bordered table-striped table-sm", index=False, justify="left")
 
       # Saves modified df in .csv format to csv
       csv = df.to_csv(index=False)
